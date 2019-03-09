@@ -1,0 +1,70 @@
+header {
+    width:100%;
+    background-image:url(main_visual.jpg);
+    background-size:cover;
+    background-color:rgb(252,248,248);
+    height:545px;
+}
+
+.container {
+    width:100%;
+}
+
+header .container {
+    display:flex;
+    justify-content:space-between; 
+}
+
+.header-left {
+    height:170px;
+    width:440px;
+    text-align:center;
+}
+
+.header-right {
+    display:inline-flex;
+    justify-content:space-around;
+    height:170px;
+    width:620px;
+    text-align:center;
+}
+
+.header-left img {
+    width:270px;
+    height:80px;
+    margin-top:45px;
+}
+
+.header-right a {
+    display:inline-block;
+    color:white;
+    font-family:"Gill Sans Std Book";
+    font-size:14px;
+    text-decoration:none;
+    margin-top:78px;
+    margin-bottom:78px;
+}
+
+.introduction {
+    height:920px;
+    background-color:rgb(252,248,248);
+    font-family:"Helvetica Neue";
+}
+
+.top-message {
+    font-size:44px;
+    letter-spacing:4px;
+    text-align:center;
+    margin-bottom:75px;
+}
+
+.message {
+    width:360px;
+    line-height:15px;
+    margin:0 auto;
+    margin-bottom:38px;
+}
+
+.message p {
+    font-size:20px;
+}
